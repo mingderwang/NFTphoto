@@ -1,5 +1,5 @@
 import { useSession } from "next-auth/react";
-import Pins from "../components/pins";
+import Pins2NFT from "../components/pins2NFT";
 
 export default function Index(pageProps) {
   const { data: session, status } = useSession();
@@ -9,7 +9,7 @@ export default function Index(pageProps) {
       {session && (
         <>
           <div>
-            <Pins user_id={session}></Pins>
+            <Pins2NFT user_id={session}></Pins2NFT>
           </div>
         </>
       )}

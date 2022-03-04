@@ -74,7 +74,7 @@ export default function Header() {
             <Link href="/">
               <a class="btn btn-ghost btn-sm rounded-btn">Home</a>
             </Link>
-            <Link href="/pinsNFT">
+            <Link href="/pins2NFT">
               <a class="btn btn-ghost btn-sm rounded-btn">List My NFT</a>
             </Link>
             <Link href="https://testnets.opensea.io/collection/pins2nft">
